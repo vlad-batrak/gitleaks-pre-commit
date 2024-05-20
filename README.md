@@ -1,7 +1,6 @@
-# gitleaks-pre-commit
-Solution for sensitive information pre-commit check based on gitleaks
+# Solution for gitleaks pre-commit check of sensitive information
 
-### Install pre-commit from [https://pre-commit.com/#install](https://pre-commit.com/#install)
+## 1. Install pre-commit from [https://pre-commit.com/#install](https://pre-commit.com/#install)
 
 ```bash
 pip install pre-commit
@@ -14,7 +13,7 @@ pre-commit installed at .git/hooks/pre-commit
 ```
 Copy **.pre-commit-config.yaml** and **install-gitleaks.py** in your repository.
 
-### Enabling and disabling of the Gitleaks pre-commit hook
+## 2. Enabling and disabling of the Gitleaks pre-commit hook
 
 Enebling hook
 
@@ -30,8 +29,8 @@ If you want to desable Gitleaks pre-commit hook, you should run next command
 git config hooks.gitleaks false
 ```
 
-#### Additional information:
-##### Usage of GitLeaks [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
+## Additional information:
+### Usage of GitLeaks [https://github.com/gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
 
 ```bash
 Usage:
